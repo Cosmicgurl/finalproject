@@ -5,8 +5,26 @@ body {
 .weather-app{
     background-color: white;
     box-shadow: -1px -1px 65px 39px rgba(227, 146, 146, 1);
-    border-radius: 8px;
+    border-radius: 16px;
     max-width: 600px;
     margin: 80px auto;
 padding: 20px;
+}
+.box-content {
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 5px -5px 32px 47px rgba(234, 176, 176, 0.1);
+    background-color: rgba(234,176,176,0.28);
+    font-size: 15px;
+    padding: 18px;
+    width: 400px;
+}
+.box-button {
+    border: 1px #eab0b0;
+    border-radius: 10px;
+    background-color: #eab0b0;
+    box-shadow: 8px -3px 29px 8px rgba(234, 176, 176, 0.2);
+    color: white;
+    font-size: 16px;
+    padding: 18px;
 }
