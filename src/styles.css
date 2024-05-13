@@ -1,30 +1,79 @@
 body {
-    background-color: #eab0b0;
+    background-color: rgba(166, 82, 100, 0.07);
     font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+}
+header {
+  border-bottom: 1px solid rgba(167, 82, 101, 0.1);
+  margin: 0 18px 0 18px;
+  text-align: center;
+}
+
+main{
+  padding: 20px;
+}
+a {
+  color:#6a45ce;
+
 }
 .weather-app{
-    background-color: white;
-    box-shadow: -1px -1px 65px 39px rgba(227, 146, 146, 1);
-    border-radius: 16px;
-    max-width: 600px;
-    margin: 80px auto;
+  background: linear-gradient(360deg, rgb(225, 115, 252) 0%, #8b66f1 100%);
+  box-shadow: 0px 0px 16px 6px rgba(234, 176, 176, 0.3);
+  border-radius: 16px;
+  max-width: 600px;
+  margin: 80px auto;
 padding: 20px;
 }
+.search-form {
+ 
+  padding: 17px 0 30px 0;
+}
+
 .box-content {
     border: none;
     border-radius: 10px;
-    box-shadow: inset 5px -5px 32px 47px rgba(234, 176, 176, 0.1);
-    background-color: rgba(234,176,176,0.28);
-    font-size: 15px;
-    padding: 18px;
-    width: 400px;
-}
-.box-button {
-    border: 1px #eab0b0;
-    border-radius: 10px;
-    background-color: #eab0b0;
-    box-shadow: 8px -3px 29px 8px rgba(234, 176, 176, 0.2);
+    background-color: #6a45ce;
     color: white;
     font-size: 16px;
     padding: 18px;
+    width: 465px;
+}
+.box-content::placeholder{
+  color:white;
+}
+.box-button {
+    border: none;
+    border-radius: 10px;
+    background-color: #6a45ce;
+    box-shadow: 7px 6px 6px rgba(129, 63, 78, 0.2);
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 18px;
+    width: 80px;
+}
+.life-data-today {
+  display: flex;
+  justify-content: space-between;
+}
+.city-weather-app{
+  font-size: 38px;
+  line-height: 48px;
+  margin: 20px 0 19px 0; 
+}
+.date-weather-app {
+  line-height: 20px;
+}
+.temperature-weather-app{
+font-size: 38px;
+margin: 20px 0 0 0;
+
+}
+footer {
+  border-top: 1px solid rgba(167, 82, 101, 0.1);
+ color: rgba(227, 225, 225, 0.8);
+  font-size: 14px;
+  margin: 0 18px 0 18px;
+  text-align: center;
+  padding: 21px 0 0 0;
 }
