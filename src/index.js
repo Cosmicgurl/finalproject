@@ -7,14 +7,15 @@ function refreshData(response){
    let humidityElement=document.querySelector("#humidity");
    let timeElement=document.querySelector("#time");
    let date = new Date(response.data.time * 1000);
+   let iconElement = document.querySelector("#icon");
 
    temperatureElement.innerHTML = Math.round(temperature);
-   cityElement.innerHTML= response.data.city;
+   cityElement.innerHTML = response.data.city;
    descriptionElement.innerHTML = response.data.condition.description;
-   windspeedElement.innerHTML=`${response.data.wind.speed} km/h`;
-   humidityElement.innerHTML=`${response.data.temperature.humidity} %`;
-   timeElement.innerHTML= formatDate(date);
-
+   windspeedElement.innerHTML =`${response.data.wind.speed} km/h`;
+   humidityElement.innerHTML =`${response.data.temperature.humidity} %`;
+   timeElement.innerHTML = formatDate(date);
+   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="emoji-weather-app"/>`
  
  console.log(response.data);
 }
