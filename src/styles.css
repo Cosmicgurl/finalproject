@@ -21,6 +21,7 @@ a {
   box-shadow: 2px 0px 13px 7px rgba(139, 102, 241, 0.2);
    border-radius: 20px;
   max-width: 600px;
+  max-height: 900px;
   margin: 80px auto;
   padding: 20px;
 }
@@ -55,7 +56,7 @@ a {
 .life-data-today {
   align-items:flex-start;
   display: flex;
-  height: 300px;
+  height: 260px;
   justify-content: space-between;
 }
 .city-weather-app{
@@ -97,4 +98,23 @@ footer {
   margin: 0 18px 0 18px;
   text-align: center;
   padding: 21px 0 0 0;
+}
+
+.weather-forcast{
+ text-align: center;
+ line-height: 15px;
+ margin-bottom: 10px;
+}
+.forcast-day {
+  font-size: 16px;
+}
+.forcast-icon {
+  width: 40px;
+  margin-bottom: 11px;
+}
+.forcast-temp {
+  font-family: 13px;
+}
+.forcast-temp-min {
+  opacity: 0.7;
 }
