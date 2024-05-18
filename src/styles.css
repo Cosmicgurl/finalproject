@@ -100,21 +100,29 @@ footer {
   padding: 21px 0 0 0;
 }
 
-.weather-forcast{
- text-align: center;
+.weather-forecast{
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: space-around;
  line-height: 15px;
  margin-bottom: 10px;
 }
-.forcast-day {
+.forecast-day {
   font-size: 16px;
 }
 .forcast-icon {
   width: 40px;
+  height: 40px;
   margin-bottom: 11px;
 }
-.forcast-temp {
+.forecast-temp {
   font-family: 13px;
 }
-.forcast-temp-min {
+.forecast-temp-min {
   opacity: 0.7;
+}
+#forecast{
+  height: 150px;
+  
 }
